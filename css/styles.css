@@ -53,10 +53,12 @@ nav {
 }
 
 .logo-text {
-  font-family: 'Anton SC', sans-serif;
-  font-size: 24px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  font-size: 22px;
   color: #d2691e;
-  white-space: nowrap;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 
@@ -213,35 +215,48 @@ section h2 {
 @media (max-width: 768px) {
   nav {
     flex-direction: row;
-    align-items: center;
     justify-content: space-between;
+    align-items: center;
   }
 
   .nav-links {
     display: none;
-    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
     width: 100%;
     background-color: #fff;
-    border-radius: 10px;
-    margin-top: 10px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+    z-index: 999;
+    text-align: center;
+    padding: 10px 0;
   }
 
   .nav-links.show {
     display: flex;
+    flex-direction: column;
   }
 
-
-  .logo-wrap {
-    flex: 1;
-  }
-
-  nav ul li {
+  .nav-links li {
     margin: 10px 0;
   }
 
+  .hamburger {
+    display: block;
+    font-size: 28px;
+    cursor: pointer;
+  }
+
+  .logo-wrap {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
   .logo-img {
-    max-height: 700px;
+    max-height: 60px;
+    height: auto;
+    width: auto;
   }
 }
 
