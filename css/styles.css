@@ -79,7 +79,7 @@ nav a:hover {
 
 /* ===== HERO SECTION ===== */
 .hero {
-  background: url('../images/hero.jpg') center/cover no-repeat;
+  background: url('../images/hero.png') center/cover no-repeat;
   min-height: 90vh;
   display: flex;
   flex-direction: column;
