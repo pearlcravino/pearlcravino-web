@@ -66,6 +66,14 @@ nav a:hover {
   color: #ff4500;
 }
 
+/* Hamburger hidden on desktop */
+.hamburger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+
 /* ===== HERO SECTION ===== */
 .hero {
   background: url('../images/hero.jpg') center/cover no-repeat;
@@ -183,37 +191,47 @@ section h2 {
 
 /* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    margin-top: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  .nav-links.show {
+    display: flex;
+  }
+
+  nav ul {
+    width: 100%;
+    padding: 10px 0;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
   nav {
     flex-direction: column;
     align-items: flex-start;
   }
 
-  nav ul {
-    flex-direction: column;
-    gap: 10px;
-    margin-top: 10px;
-  }
-
-  .hero h1 {
-    font-size: 36px;
-  }
-
-  .hero-desc {
-    font-size: 16px;
-  }
-
-  .tagline {
-    font-size: 18px;
-  }
-
-  .btn {
-    padding: 10px 20px;
-  }
-
-  .product-grid {
-    padding: 0 10px;
+  .logo-wrap {
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
   }
 }
+
 
 @media (max-width: 480px) {
   .hero h1 {
