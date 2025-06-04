@@ -1,22 +1,49 @@
-body {
+/* ===== RESET & BASE ===== */
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
   font-family: 'Quicksand', sans-serif;
   background-color: #fffaf0;
   color: #333;
+  line-height: 1.6;
+  scroll-behavior: smooth;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* ===== NAVIGATION ===== */
 nav {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 20px 40px;
   background-color: #fff;
   box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  flex-wrap: wrap;
   position: sticky;
   top: 0;
-  z-index: 10;
+  z-index: 100;
 }
 
-nav .logo {
+.logo-wrap {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo-img {
+  height: 40px;
+  width: 40px;
+}
+
+.logo-text {
   font-size: 24px;
   font-weight: 600;
   color: #d2691e;
@@ -26,66 +53,89 @@ nav ul {
   display: flex;
   list-style: none;
   gap: 20px;
+  flex-wrap: wrap;
 }
 
 nav a {
-  text-decoration: none;
-  color: #333;
   font-weight: 500;
+  color: #333;
+  transition: color 0.3s;
 }
 
+nav a:hover {
+  color: #ff4500;
+}
+
+/* ===== HERO SECTION ===== */
 .hero {
   background: url('../images/hero.jpg') center/cover no-repeat;
   height: 100vh;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
   text-align: center;
-  flex-direction: column;
+  padding: 0 20px;
 }
 
 .hero-text {
-  background: rgba(255, 255, 255, 0.85);
-  padding: 20px;
-  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.88);
+  margin: auto;
+  max-width: 700px;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.tagline {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff4500;
+  margin-bottom: 10px;
 }
 
 .hero h1 {
   font-size: 48px;
-  margin: 0;
-  color: #d2691e;
+  margin-bottom: 10px;
+  color: #1a1a1a;
 }
 
-.hero p {
-  font-size: 20px;
+.hero-desc {
+  font-size: 18px;
+  max-width: 600px;
+  margin: 10px auto 20px;
 }
 
 .btn {
-  margin-top: 20px;
   display: inline-block;
   background-color: #ff7f50;
   color: white;
   padding: 12px 25px;
   border-radius: 25px;
-  text-decoration: none;
-  transition: 0.3s;
+  transition: all 0.3s ease;
+  font-weight: 600;
 }
 
 .btn:hover {
   background-color: #ff4500;
 }
 
-.products, .about, .contact {
+.btn:active {
+  transform: scale(0.98);
+  box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+}
+
+/* ===== SECTIONS ===== */
+section {
   padding: 60px 20px;
   text-align: center;
 }
 
-.products h2, .about h2, .contact h2 {
+section h2 {
   font-size: 32px;
-  margin-bottom: 30px;
   color: #d2691e;
+  margin-bottom: 30px;
 }
 
+/* ===== PRODUCT GRID ===== */
 .product-grid {
   display: grid;
   gap: 20px;
@@ -98,26 +148,37 @@ nav a {
   border-radius: 12px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.05);
   padding: 20px;
-  transition: transform 0.2s;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .product-card:hover {
-  transform: translateY(-5px);
+  transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
 }
 
 .product-card img {
   max-width: 100%;
   border-radius: 10px;
+  margin-bottom: 15px;
 }
 
-footer {
-  padding: 20px;
-  background-color: #fff;
+.product-card h3 {
+  margin-bottom: 10px;
+  font-size: 20px;
+  color: #333;
+}
+
+/* ===== FOOTER ===== */
+.site-footer {
+  background-color: #ffe4c4;
+  padding: 30px 20px;
   text-align: center;
   font-size: 14px;
+  color: #333;
+  margin-top: 40px;
 }
 
-/* Mobile-first responsiveness */
+/* ===== RESPONSIVE ===== */
 @media (max-width: 768px) {
   nav {
     flex-direction: column;
@@ -131,24 +192,37 @@ footer {
   }
 
   .hero h1 {
-    font-size: 32px;
+    font-size: 36px;
   }
 
-  .hero p {
+  .hero-desc {
     font-size: 16px;
   }
 
-  .product-grid {
-    padding: 0 10px;
+  .tagline {
+    font-size: 18px;
   }
 
   .btn {
     padding: 10px 20px;
   }
+
+  .product-grid {
+    padding: 0 10px;
+  }
 }
 
-/* Button press feedback */
-.btn:active {
-  transform: scale(0.98);
-  box-shadow: inset 0 0 5px rgba(0,0,0,0.2);
+@media (max-width: 480px) {
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero-text {
+    padding: 20px;
+  }
+
+  .btn {
+    width: 100%;
+    display: block;
+  }
 }
