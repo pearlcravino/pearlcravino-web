@@ -45,12 +45,7 @@ nav {
   object-fit: contain;
 }
 
-.logo-text {
-  font-family: 'Monofett', serif;
-  font-size: 24px;
-  font-weight: normal;
-  color: #d2691e;
-}
+
 
 nav ul {
   display: flex;
