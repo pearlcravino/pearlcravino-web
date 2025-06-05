@@ -291,9 +291,12 @@ section h2 {
 
 .footer-socials {
   display: flex;
-  gap: 15px;
   justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 100%;
   margin-bottom: 20px;
+  padding-top: 10px;
 }
 
 .social-btn {
