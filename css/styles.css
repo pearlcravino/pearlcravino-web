@@ -266,7 +266,7 @@ section h2 {
 .footer-logo {
   max-height: 80px;
   width: auto;
-  object-fit: contain;
+  object-fit: none;
   background-color: white;
   padding: 5px;
   border-radius: 10px;
