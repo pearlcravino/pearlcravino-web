@@ -21,24 +21,15 @@ a {
 /* ===== NAVIGATION ===== */
 
 nav {
-  transition: all 0.4s ease;
-  background-color: white;
-}
-
-nav.hidden {
-  transform: translateY(-100%);
-  opacity: 0;
-}
-
-nav.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  background-color: #ffe4c4; /* Accent color */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  opacity: 1;
-  transform: translateY(0);
-  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+  background-color: #fff;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  flex-wrap: wrap;
+  position: relative;
+  z-index: 10;
 }
 
 .logo-wrap {
