@@ -81,13 +81,16 @@
       <h2>Contact Us</h2>
       <p>Have questions, feedback, or love for Makhana? Reach out!</p>
 
-     <form action="https://formspree.io/f/mjkrkpzz" method="post" class="contact-form">
-        <input type="text" name="name" placeholder="Your Name" required>
-       <input type="email" name="_replyto" placeholder="Your Email" required>
-        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+     <form id="contactForm" action="https://formspree.io/f/mjkrkpzz" method="POST" class="contact-form">
+       <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="_replyto" placeholder="Your Email" required>
+       <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
        <button type="submit" class="btn">Send Message</button>
+         <p id="thankYouMessage" style="display:none; color: green; font-weight: 600; margin-top: 10px;">
+            Thank you! We'll get back to you shortly.
+          </p>
       </form>
-    </section>
+
 
   <!-- FOOTER -->
   <footer class="site-footer">
