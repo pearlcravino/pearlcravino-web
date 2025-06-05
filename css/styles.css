@@ -290,7 +290,7 @@ section h2 {
 }
 
 .footer-socials {
-  display: flex;
+  display: contents;
   justify-content: center;
   align-items: center;
   gap: 15px;
