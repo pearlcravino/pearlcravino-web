@@ -22,7 +22,7 @@
       <ul class="nav-links" id="navLinks">
         <li><a href="#products">Products</a></li>
         <li><a href="#about">Our Story</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li><a href="#contact" class="cta-button">Contact Us</a></li>
       </ul>
     </nav>
 
@@ -77,10 +77,17 @@
   </section>
 
   <!-- CONTACT -->
-  <section id="contact" class="contact fade-in">
-    <h2>Contact Us</h2>
-    <p>Email: hello@pearlcravino.com | Instagram: @makhanoo_snacks</p>
-  </section>
+    <section id="contact" class="contact fade-in">
+      <h2>Contact Us</h2>
+      <p>Have questions, feedback, or love for Makhana? Reach out!</p>
+
+     <form action="https://formspree.io/f/mnqedzvy" method="POST" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required>
+       <input type="email" name="_replyto" placeholder="Your Email" required>
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+       <button type="submit" class="btn">Send Message</button>
+      </form>
+    </section>
 
   <!-- FOOTER -->
   <footer class="site-footer">
