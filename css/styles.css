@@ -369,16 +369,16 @@ section h2 {
     flex-direction: column;
     align-items: center;
     gap: 5px; /* reduce spacing between sections */
-    padding: 20px 10px;
+    padding: 20px 5px;
   }
 
   .footer-logo-circle {
     max-width: 160px; /* still large but less overwhelming */
-    margin-bottom: 10px;
+    margin-bottom: 5px;
   }
 
   .footer-socials {
-    margin: 10px 0;
+    margin: 5px 0;
     gap: 12px;
   }
 
@@ -388,8 +388,8 @@ section h2 {
   }
 
   .footer-bottom {
-    margin-top: 10px;
-    padding-top: 10px;
+    margin-top: 5px;
+    padding-top: 5px;
     font-size: 13px;
   }
 }
