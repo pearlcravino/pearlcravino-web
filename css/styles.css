@@ -369,7 +369,7 @@ section h2 {
     flex-direction: column;
     align-items: center;
     gap: 5px; /* reduce spacing between sections */
-    padding: 20px 5px;
+    padding: 10px 5px;
   }
 
   .footer-logo-circle {
