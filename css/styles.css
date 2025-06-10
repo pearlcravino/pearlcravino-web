@@ -375,7 +375,7 @@ section h2 {
   .footer-right {
     text-align: center;
     align-items: center;
-    justify-self: space-between;
+    justify-self: auto;
   }
 
   .footer-logo-circle {
