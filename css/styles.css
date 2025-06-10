@@ -38,7 +38,7 @@ nav {
 .logo-wrap {
   display: flex;
   align-items: center;
-  gap: 2px;
+  gap: 5px;
   text-decoration: none;
 }
 
