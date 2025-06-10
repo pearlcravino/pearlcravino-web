@@ -54,6 +54,7 @@ nav {
   font-size: 22px;
   font-weight: 600;
   color: #d2691e;
+  display: none;
 }
 
 .nav-links {
