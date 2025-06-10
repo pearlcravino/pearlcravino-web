@@ -367,7 +367,6 @@ section h2 {
 
   .footer-content {
     flex-direction: column;
-    flex-shrink: inherit;
     align-items: center;
   }
 
@@ -375,6 +374,8 @@ section h2 {
   .footer-center,
   .footer-right {
     text-align: center;
+    align-items: center;
+    justify-content: space-between;
   }
 
   .footer-logo-circle {
