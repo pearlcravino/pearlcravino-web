@@ -44,7 +44,7 @@ nav {
 
 .logo-img {
   height: auto;
-  max-height: 120px; /* was ~60px */
+  max-height: 90px; /* was ~60px */
   width: auto;
   object-fit: contain;
 }
@@ -54,6 +54,10 @@ nav {
   font-size: 22px;
   font-weight: 600;
   color: #d2691e;
+<<<<<<< HEAD
+=======
+  display: none;
+>>>>>>> parent of 8bafdb8 (Update styles.css)
 }
 
 .nav-links {
