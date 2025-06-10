@@ -368,23 +368,30 @@ section h2 {
   .footer-content {
     flex-direction: column;
     align-items: center;
-  }
-
-  .footer-left,
-  .footer-center,
-  .footer-right {
-    text-align: center;
-    align-items: auto;
+    gap: 10px; /* reduce spacing between sections */
+    padding: 20px 10px;
   }
 
   .footer-logo-circle {
-    margin-bottom: 15px;
+    max-width: 160px; /* still large but less overwhelming */
+    margin-bottom: 10px;
   }
 
-  .footer-right {
-    font-size: 15px;
+  .footer-socials {
+    margin: 10px 0;
+    gap: 12px;
   }
 
+  .footer-right p {
+    margin: 4px 0;
+    font-size: 14px;
+  }
+
+  .footer-bottom {
+    margin-top: 10px;
+    padding-top: 10px;
+    font-size: 13px;
+  }
 }
 
 
