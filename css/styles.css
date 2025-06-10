@@ -38,13 +38,13 @@ nav {
 .logo-wrap {
   display: flex;
   align-items: center;
-  gap: 5px;
+  gap: 2px;
   text-decoration: none;
 }
 
 .logo-img {
   height: auto;
-  max-height: 90px; /* was ~60px */
+  max-height: 120px; /* was ~60px */
   width: auto;
   object-fit: contain;
 }
