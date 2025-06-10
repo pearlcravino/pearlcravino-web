@@ -367,6 +367,7 @@ section h2 {
 
   .footer-content {
     flex-direction: column;
+    flex-shrink: inherit;
     align-items: center;
   }
 
