@@ -253,13 +253,13 @@ section h2 {
 
 .founder-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
   gap: 30px;
   padding: 30px 40px;
 }
 
 .founder-card {
-  position: relative;
+  position:relative;
   background: #fff;
   border-radius: 12px;
   overflow: hidden;
