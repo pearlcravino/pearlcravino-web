@@ -28,5 +28,5 @@ document.addEventListener("DOMContentLoaded", () => {
   window.prevSlide = prevSlide;
 
   updateCarousel();
-  setInterval(nextSlide, 5000); // Optional: autoplay every 5s
+  setInterval(nextSlide, 5000);
 });
