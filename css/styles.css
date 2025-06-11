@@ -175,6 +175,70 @@ section h2 {
   margin-bottom: 30px;
 }
 
+.section-banner img.banner-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.testimonials {
+  padding: 60px 20px;
+  background-color: #fffefc;
+  text-align: center;
+}
+
+.testimonial-grid {
+  display: grid;
+  gap: 20px;
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.testimonial-grid blockquote {
+  background-color: #fff5e6;
+  padding: 20px;
+  border-radius: 12px;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.founders {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #fffdf8;
+}
+
+.founder-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.founder-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  max-width: 220px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.founder-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.founder-card h3 {
+  margin: 10px 0 5px;
+}
+
+.founder-card p {
+  font-size: 14px;
+  color: #666;
+}
+
+
 .contact-form {
   max-width: 500px;
   margin: 20px auto 0;
