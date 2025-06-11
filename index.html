@@ -9,6 +9,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Monofett&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 <body>
 
@@ -83,22 +84,30 @@
   </section>
   <!-- Testimonials Section -->
   <section id="testimonials" class="testimonial-section">
-   <h2>What Our Customers Say</h2>
-   <div class="carousel-wrapper">
-     <button class="arrow left" onclick="prevSlide()">&#8592;</button>
-     <div class="testimonial-track" id="testimonialTrack">
-       <div class="testimonial-card"><img src="images/user1.jpg"><h4>Priya</h4><p>Best snack ever!</p></div>
-       <div class="testimonial-card"><img src="images/user2.jpg"><h4>Arjun</h4><p>Super healthy!</p></div>
-       <div class="testimonial-card"><img src="images/user3.jpg"><h4>Neha</h4><p>Kids love it!</p></div>
-       <div class="testimonial-card"><img src="images/user4.jpg"><h4>Vikram</h4><p>Snack goals!</p></div>
-       <div class="testimonial-card"><img src="images/user5.jpg"><h4>Sanya</h4><p>Every bite = wow</p></div>
-       <div class="testimonial-card"><img src="images/user6.jpg"><h4>Anil</h4><p>Office snack win</p></div>
+   <h2>What Our Clients Say</h2>
+   <div class="swiper testimonial-swiper">
+     <div class="swiper-wrapper">
+       <!-- Repeat for each testimonial -->
+       <div class="swiper-slide">
+         <div class="testimonial-card">
+           <div class="testimonial-body">
+             <div class="stars">★★★★★</div>
+             <p>This app is awesome. Very easy to use!</p>
+           </div>
+           <div class="testimonial-footer">
+             <img src="images/user1.jpg" alt="Client">
+             <div>
+               <strong>Diane Pennebaker</strong><br>
+               <small>Insurance Adjuster</small>
+             </div>
+           </div>
+         </div>
+       </div>
+       <!-- Add more slides -->
      </div>
-     <button class="arrow right" onclick="nextSlide()">&#8594;</button>
+     <div class="swiper-pagination"></div>
    </div>
   </section>
-
-
 
 
     <!-- Banner Image -->
@@ -179,5 +188,28 @@
   <script src="js/hamburger.js"></script>
   <script src="js/slick.js"></script>
   <script src="js/testimonialTrack.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+   new Swiper('.testimonial-swiper', {
+     slidesPerView: 5,
+     spaceBetween: 20,
+     loop: true,
+     autoplay: {
+       delay: 4000,
+       disableOnInteraction: false
+     },
+     pagination: {
+       el: '.swiper-pagination',
+       clickable: true
+     },
+     breakpoints: {
+       0: { slidesPerView: 1 },
+       480: { slidesPerView: 2 },
+       768: { slidesPerView: 3 },
+       1024: { slidesPerView: 5 }
+     }
+   });
+  </script>
 </body>
 </html>
