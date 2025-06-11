@@ -259,7 +259,7 @@ section h2 {
 
 .founder-grid {
   display: flex;
-  gap: 30px;
+  gap: 50px;
   justify-content: center;
   flex-wrap: wrap;
   max-width: 1000px;
