@@ -217,9 +217,10 @@ section h2 {
 }
 
 .card {
-  flex: 0 0 150px;
   text-align: center;
-  padding: 20px 10px;
+  flex: 0 0 225px; /* was 150px */
+  padding: 30px 20px;
+  font-size: 16px;
   background-color: #fff;
   border-radius: 12px;
   box-shadow: 0 5px 20px rgba(0,0,0,0.08);
@@ -236,7 +237,7 @@ section h2 {
 }
 
 .card.active {
-  flex: 0 0 250px;
+  flex: 0 0 375px; /* was 250px */
   opacity: 1;
   transform: scale(1.2);
   z-index: 2;
@@ -264,6 +265,8 @@ section h2 {
   overflow: hidden;
   box-shadow: 0 5px 20px rgba(0,0,0,0.05);
   transition: transform 0.3s ease;
+  max-width: 120px; /* was 240px or more */
+  padding: 10px;
 }
 
 .founder-card:hover {
@@ -271,7 +274,8 @@ section h2 {
 }
 
 .founder-card img {
-  width: 50%;
+  width: 100%;
+  border-radius: 10px;
   height: auto;
   display: block;
 }
@@ -300,6 +304,13 @@ section h2 {
 }
 
 
+.founder-info h3 {
+  font-size: 14px;
+}
+
+.founder-info p {
+  font-size: 12px;
+}
 
 .contact-form {
   max-width: 500px;
