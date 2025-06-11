@@ -251,66 +251,55 @@ section h2 {
 
 
 
+.founders {
+  background: #fffef9;
+  padding: 60px 20px;
+  text-align: center;
+}
+
 .founder-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  display: flex;
   gap: 30px;
-  padding: 30px 40px;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1000px;
+  margin: 30px auto 0;
 }
 
 .founder-card {
-  position:relative;
-  background: #fff;
+  background: white;
   border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
   overflow: hidden;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+  width: 260px;
   transition: transform 0.3s ease;
-  max-width: 120px; /* was 240px or more */
-  padding: 10px;
 }
 
 .founder-card:hover {
-  transform: scale(1.03);
+  transform: translateY(-6px);
 }
 
 .founder-card img {
   width: 100%;
-  border-radius: 10px;
   height: auto;
-  display: block;
+  object-fit: cover;
 }
 
 .founder-info {
   padding: 15px;
-  text-align: center;
-  position: relative;
 }
-
-.bio-hover {
-  background: #fffaf0;
-  padding: 10px;
-  margin-top: 10px;
-  font-size: 14px;
-  color: #444;
-  opacity: 0;
-  max-height: 0;
-  overflow: hidden;
-  transition: all 0.4s ease-in-out;
-}
-
-.founder-card:hover .bio-hover {
-  opacity: 1;
-  max-height: 150px;
-}
-
 
 .founder-info h3 {
-  font-size: 14px;
+  margin: 10px 0 5px;
+  font-size: 20px;
+  color: #333;
 }
 
 .founder-info p {
-  font-size: 12px;
+  font-size: 14px;
+  color: #666;
 }
+
 
 .contact-form {
   max-width: 500px;
