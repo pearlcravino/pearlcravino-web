@@ -182,22 +182,66 @@ section h2 {
   margin: 0 auto;
 }
 
-.testimonial-carousel {
-  position: relative;
-  max-width: 600px;
-  margin: 30px auto;
-  height: 160px;
+.testimonial-carousel-container {
+  text-align: center;
+  padding: 60px 20px;
+  background: #fffef9;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
   overflow: hidden;
+  position: relative;
 }
 
-.testimonial-slide {
-  display: none;
-  animation: fade 1s ease-in-out;
+.arrow {
+  font-size: 32px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #ff7f50;
+  transition: transform 0.2s;
 }
 
-.testimonial-slide.active {
-  display: block;
+.arrow:hover {
+  transform: scale(1.2);
 }
+
+.testimonial-cards {
+  display: flex;
+  transition: transform 0.4s ease;
+  gap: 20px;
+}
+
+.card {
+  flex: 0 0 150px;
+  text-align: center;
+  padding: 20px 10px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+  transition: transform 0.3s, scale 0.3s;
+  opacity: 0.6;
+}
+
+.card img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.card.active {
+  flex: 0 0 250px;
+  opacity: 1;
+  transform: scale(1.2);
+  z-index: 2;
+}
+
 
 @keyframes fade {
   from { opacity: 0; }
