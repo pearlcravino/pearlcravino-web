@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   function prevSlide() {
-    activeIndex = (activeIndex - 1 + cards.length) % cards.length;
+    activeIndex = (activeIndex - 1 ) % cards.length;
     updateCarousel();
   }
 
