@@ -8,10 +8,6 @@ document.addEventListener("DOMContentLoaded", () => {
       card.classList.remove("active");
       if (i === activeIndex) card.classList.add("active");
     });
-
-    const cardWidth = cards[0].offsetWidth;
-    const offset = (activeIndex - 2) * cardWidth;
-    track.style.transform = `translateX(-${offset}px)`;
   }
 
   function nextSlide() {
