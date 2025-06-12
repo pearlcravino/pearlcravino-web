@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
-  let activeIndex = 2;
+  let activeIndex = 0;
   const track = document.getElementById("testimonialTrack");
   const cards = document.querySelectorAll(".testimonial-card");
 
