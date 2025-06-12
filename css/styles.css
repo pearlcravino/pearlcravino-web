@@ -388,7 +388,7 @@ section h2 {
 }
 
 .footer-logo-circle {
-  max-width: 180px;
+  max-width: 200px;
   aspect-ratio: 1 / 1;
   border-radius: 50%;
   object-fit: cover;
