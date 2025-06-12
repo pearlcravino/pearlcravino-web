@@ -5,8 +5,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
   function updateCarousel() {
     cards.forEach((card, i) => {
-      card.classList.remove("active");
-      if (i === activeIndex) card.classList.add("active");
+      card.classList;
+      if (i === activeIndex) card.classList;
     });
   }
 
