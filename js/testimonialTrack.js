@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
       if (i === activeIndex) card.classList.add("active");
     });
 
-    const cardWidth = cards[0].offsetWidth + 20;
+    const cardWidth = cards[0].offsetWidth;
     const offset = (activeIndex - 2) * cardWidth;
     track.style.transform = `translateX(-${offset}px)`;
   }
