@@ -24,7 +24,7 @@ a {
 /* ===== NAVIGATION ===== */
 
 nav {
-  display: flex;
+  display:inline-flex;
   align-items: center;
   justify-content: space-between;
   padding: 15px 30px;
@@ -46,7 +46,7 @@ nav {
   height: auto;
   max-height: 110px; /* was ~60px */
   width: auto;
-  object-fit: fill;
+  object-fit: contain;
 }
 
 .logo-text {
