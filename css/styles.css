@@ -89,7 +89,7 @@ nav a:hover {
 }
 
 .cta-button {
-  background-color: #cdbc64;
+  background-color: #c8b245;
   color: white !important;
   padding: 8px 18px;
   border-radius: 25px;
@@ -145,7 +145,7 @@ nav a:hover {
 
 .btn {
   display: inline-block;
-  background-color: #cdbc64;
+  background-color: #c8b245;
   color: white;
   padding: 12px 30px;
   border-radius: 25px;
@@ -306,7 +306,7 @@ section h2 {
 }
 
 .contact-form button {
-  background-color: #cdbc64;
+  background-color: #c8b245;
   color: white;
   border: none;
   padding: 12px 20px;
@@ -400,7 +400,7 @@ section h2 {
 }
 
 .social-btn {
-  background-color: #cdbc64;
+  background-color: #c8b245;
   color: white;
   font-size: 18px;
   width: 45px;
