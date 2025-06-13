@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  height: 100%;
+
 }
 
 body {
@@ -15,7 +15,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  height: 100%;
+
 }
 
 a {
@@ -116,9 +116,6 @@ nav a:hover {
   padding: 40px 20px;
 }
 
-.hero-section {
-  display: none; /* OR set min-height to 0 if it's required structure */
-}
 
 .hero-text {
   background: rgba(255, 255, 255, 0.88);
