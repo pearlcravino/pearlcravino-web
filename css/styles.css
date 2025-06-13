@@ -507,7 +507,7 @@ section h2 {
   }
 
   .section-banner img.banner-img {
-    display: block;
+    display:flex;
   }
 }
 
