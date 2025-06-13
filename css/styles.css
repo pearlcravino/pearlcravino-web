@@ -85,11 +85,11 @@ nav a {
 }
 
 nav a:hover {
-  color: #ff4500;
+  color: #a88c04;
 }
 
 .cta-button {
-  background-color: #ff7f50;
+  background-color: #cdbc64;
   color: white !important;
   padding: 8px 18px;
   border-radius: 25px;
@@ -98,7 +98,7 @@ nav a:hover {
 }
 
 .cta-button:hover {
-  background-color: #ff4500;
+  background-color: #a88c04;
 }
 
 
@@ -132,7 +132,7 @@ nav a:hover {
 .tagline {
   font-size: clamp(1.1rem, 3vw, 1.5rem);
   font-weight: bold;
-  color: #ff4500;
+  color: #a88c04;
   margin-bottom: 10px;
 }
 
@@ -145,7 +145,7 @@ nav a:hover {
 
 .btn {
   display: inline-block;
-  background-color: #ff7f50;
+  background-color: #cdbc64;
   color: white;
   padding: 12px 30px;
   border-radius: 25px;
@@ -155,7 +155,7 @@ nav a:hover {
 }
 
 .btn:hover {
-  background-color: #ff4500;
+  background-color: #a88c04;
 }
 
 .btn:active {
@@ -171,7 +171,7 @@ section {
 
 section h2 {
   font-size: 32px;
-  color: #d2691e;
+  color: #a88c04;
   margin-bottom: 30px;
 }
 
@@ -306,7 +306,7 @@ section h2 {
 }
 
 .contact-form button {
-  background-color: #ff7f50;
+  background-color: #cdbc64;
   color: white;
   border: none;
   padding: 12px 20px;
@@ -317,7 +317,7 @@ section h2 {
 }
 
 .contact-form button:hover {
-  background-color: #ff4500;
+  background-color: #a88c04;
 }
 
 .form-spacer {
@@ -360,7 +360,7 @@ section h2 {
 
 /* ===== FOOTER ===== */
 .site-footer {
-  background: #ffe4c4;
+  background: #cdbc64;
   color: #333;
   padding: 30px 20px 15px;
   padding-bottom: 0%;
@@ -400,7 +400,7 @@ section h2 {
 }
 
 .social-btn {
-  background-color: #ec603d;
+  background-color: #cdbc64;
   color: white;
   font-size: 18px;
   width: 45px;
@@ -415,7 +415,7 @@ section h2 {
 
 .social-btn:hover {
   transform: scale(1.15);
-  background-color: #ff4500;
+  background-color: #a88c04;
 }
 
 .footer-right p {
