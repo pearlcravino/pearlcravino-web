@@ -124,7 +124,7 @@ nav a:hover {
 }
 
 .hero h1 {
-  font-family: 'Heading Now ExtraBold', sans-serif;
+  font-family: 'Heading Now', sans-serif;
   font-weight: 800;
 
   color: #1a1a1a;
@@ -132,8 +132,8 @@ nav a:hover {
 }
 
 @font-face {
-  font-family: 'Heading Now ExtraBold';
-  src: url('fonts/HeadingNow-ExtraBold.ttf') format('truetype');
+  font-family: 'Heading Now';
+  src: url('fonts/HeadingNowTrial-07Extrabold.ttf') format('truetype');
   font-weight: 800;
   font-style: normal;
 }
