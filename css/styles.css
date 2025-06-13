@@ -46,7 +46,7 @@ nav {
   height: auto;
   max-height: 110px; /* was ~60px */
   width: auto;
-  object-fit: fill;
+  object-fit: contain;
 }
 
 .logo-text {
