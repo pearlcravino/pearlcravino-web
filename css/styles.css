@@ -483,8 +483,8 @@ section h2 {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 10px;
-    padding: 30px 10px;
+    gap: 5px;
+    padding: 10px 5px;
   }
 
   .footer-logo-circle {
@@ -494,7 +494,7 @@ section h2 {
 
   .footer-socials {
     justify-content: center;
-    gap: 12px;
+    gap: 5px;
     margin-bottom: 15px;
   }
 
@@ -507,7 +507,7 @@ section h2 {
   .footer-bottom {
     margin-top: 5px;
     padding-top: 5px;
-    font-size: 13px;
+    font-size: 10px;
   }
 
 /*  .section-banner img.banner-img {
