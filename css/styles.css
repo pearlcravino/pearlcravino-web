@@ -519,7 +519,15 @@ section h2 {
     height: auto;
     width: auto;
   }
+  
+  .makhanoo-img {
+    height: 28px;
+  }
 
+  .makhanoo-img-wrap {
+    display: inline-block;
+    vertical-align: middle;
+  }
 
 
   .footer-content {
