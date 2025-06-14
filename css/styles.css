@@ -519,9 +519,10 @@ section h2 {
     height: auto;
     width: auto;
   }
-  
+
   .makhanoo-img {
-    height: 28px;
+    height: 1700px; /* adjust to match text height */
+    max-height:max-content;
   }
 
   .makhanoo-img-wrap {
