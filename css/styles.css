@@ -536,6 +536,7 @@ section h2 {
 
   .makhanoo-img {
     height: 360px;
+    max-inline-size: none;
   }
 
 
