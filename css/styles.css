@@ -35,6 +35,8 @@ nav {
   flex-wrap: wrap;
   position: relative;
   z-index: 10;
+  border-radius: 20px; /* or higher for more curvature */
+  overflow: hidden;
 }
 
 .logo-wrap {
@@ -374,6 +376,8 @@ section h2 {
   padding-bottom: 0%;
   font-size: 14px;
   border-top: 1px solid #ccc;
+  border-radius: 20px; /* or higher for more curvature */
+  overflow: hidden;
 }
 
 .footer-content {
@@ -464,6 +468,8 @@ section h2 {
     background: white;
     padding: 10px 0;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    border-radius: 20px; /* or higher for more curvature */
+    overflow: hidden;
   }
 
   .hero-section {
