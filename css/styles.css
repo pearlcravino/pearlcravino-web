@@ -525,14 +525,18 @@ section h2 {
   }
 
   .makhanoo-img-wrap {
-    display:inline-block;
-    vertical-align: middle;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: nowrap;
   }
 
   .makhanoo-img {
-    height: 1700px; /* adjust to match text height */
-    max-height:fit-content;
-    /*filter: drop-shadow(0 0 0 black) drop-shadow(0 0 0 black) drop-shadow(0 0 0 black);*/
+    height: 45px;
   }
 
 
