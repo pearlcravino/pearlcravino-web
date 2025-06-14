@@ -180,7 +180,7 @@ section {
 }
 
 .bolder {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Anton', sans-serif; /* or Heading Now ExtraBold if loaded */
   font-weight: 900;
   letter-spacing: 1px;
 }
