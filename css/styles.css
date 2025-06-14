@@ -112,6 +112,7 @@ nav a:hover {
   justify-content: center;
   text-align: center;
   padding: 40px 20px;
+
 }
 
 .hero-text {
@@ -456,6 +457,10 @@ section h2 {
     background: white;
     padding: 10px 0;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+
+  .hero{
+      flex: 5 5 5px;
   }
 
   .nav-links.show {
