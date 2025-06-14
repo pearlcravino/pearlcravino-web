@@ -45,18 +45,18 @@ nav {
 }
 
 .logo-img {
-  height: auto;
+  height:max-content;
   max-height: 110px; /* was ~60px */
   width: auto;
   object-fit: contain;
 }
 
-.logo-text {
+/*.logo-text {
   font-family: 'Quicksand', sans-serif;
   font-size: 22px;
   font-weight: 600;
   color: #d2691e;
-}
+}*/
 
 .nav-links {
   display: flex;
