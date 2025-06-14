@@ -471,6 +471,8 @@ section h2 {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+    overflow: visible;
   }
 
   .hamburger {
@@ -482,13 +484,15 @@ section h2 {
     flex-direction: column;
     width: 100%;
     position: absolute;
-    top: 70px;
+    top: 100%;
     left: 0;
+    right: 0;
     background: white;
     padding: 10px 0;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     border-radius: 20px; /* or higher for more curvature */
     overflow: hidden;
+    z-index: 9999; /* Ensure it's above other elements */
   }
 
   .hero-section {
