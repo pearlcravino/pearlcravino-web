@@ -488,7 +488,7 @@ section h2 {
   }
 
   .footer-logo-circle {
-    margin: 0 auto 10px;
+    margin: 0 auto 1px;
     max-width: 140px; /* increase from ~90–100px */
   }
 
@@ -508,6 +508,12 @@ section h2 {
     margin-top: 5px;
     padding-top: 5px;
     font-size: 10px;
+  }
+
+  .footer-left,
+  .footer-center,
+  .footer-right {
+    flex: 1 1 1px;
   }
 
 /*  .section-banner img.banner-img {
