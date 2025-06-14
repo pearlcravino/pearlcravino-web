@@ -175,12 +175,12 @@ section h2 {
   margin-bottom: 30px;
 }
 
-.section-banner img.banner-img {
+/*.section-banner img.banner-img {
   width: 100%;
   height: auto;
   display: block;
   margin: 0 auto;
-}
+}*/
 
 .testimonial-section {
   padding: 60px 20px;
@@ -400,7 +400,7 @@ section h2 {
 }
 
 .social-btn {
-  background-color: #c8b245;
+  background-color: #bba742;
   color: white;
   font-size: 18px;
   width: 45px;
@@ -507,9 +507,9 @@ section h2 {
     font-size: 13px;
   }
 
-  .section-banner img.banner-img {
+/*  .section-banner img.banner-img {
     display: block;
-  }
+  }*/
 }
 
 
