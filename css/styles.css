@@ -526,6 +526,7 @@ section h2 {
 
   .makhanoo-img {
     height: 100px; /* adjust to match text height */
+    max-height: fit-content;
   }
 
   .makhanoo-img-wrap {
