@@ -483,13 +483,13 @@ section h2 {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    gap: 20px;
-    padding: 30px 15px;
+    gap: 25px;
+    padding: 30px 20px;
   }
 
   .footer-logo-circle {
-    max-width: 120px;
     margin: 0 auto 10px;
+    max-width: 140px; /* increase from ~90–100px */
   }
 
   .footer-socials {
@@ -501,6 +501,7 @@ section h2 {
   .footer-right {
     font-size: 14px;
     line-height: 1.5;
+    text-align: center
   }
 
   .footer-bottom {
