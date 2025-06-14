@@ -525,14 +525,13 @@ section h2 {
   }
 
   .makhanoo-img {
-    height: 1700px; /* adjust to match text height */
-    max-height:none;
-    vertical-align: middle;
+    height: 500px; /* adjust to match text height */
   }
 
   .makhanoo-img-wrap {
     display: inline-block;
     vertical-align: middle;
+    max-height: fit-content;
   }
 
 
