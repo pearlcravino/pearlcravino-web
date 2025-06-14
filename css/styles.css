@@ -525,7 +525,7 @@ section h2 {
   }
 
   .makhanoo-img-wrap {
-    display: inline;
+    display:inline-flex;
     vertical-align: middle;
   }
 
