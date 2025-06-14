@@ -524,14 +524,15 @@ section h2 {
     width: auto;
   }
 
-  .makhanoo-img {
-    height: 100px; /* adjust to match text height */
-  }
-
   .makhanoo-img-wrap {
     display: inline-block;
     vertical-align: middle;
-    max-height: fit-content;
+  }
+
+  .makhanoo-img {
+    height: 1700px; /* adjust to match text height */
+    max-height:max-content;
+    /*filter: drop-shadow(0 0 0 black) drop-shadow(0 0 0 black) drop-shadow(0 0 0 black);*/
   }
 
 
