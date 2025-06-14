@@ -127,12 +127,14 @@ nav a:hover {
 }
 
 .hero h1 {
-
-  color: #1a1a1a;
-  margin-bottom: 10px;
-  white-space: nowrap;
-  font-size: clamp(2.2rem, 6vw, 4rem); /* responsive but prevents wrapping */
-  text-align: center;
+  font-family: 'Anton', sans-serif; /* or Heading Now ExtraBold if loaded */
+  font-weight: 900;
+  font-stretch: expanded;
+  letter-spacing: 1px;
+  font-size: clamp(2.5rem, 6vw, 5rem);
+  line-height: 1.1;
+  text-transform: uppercase;
+  color: #333;
 }
 
 .tagline {
