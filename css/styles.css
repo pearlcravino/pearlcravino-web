@@ -185,6 +185,17 @@ section {
   letter-spacing: 1px;
 }
 
+.makhanoo-img-wrap {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.makhanoo-img {
+  height: 40px; /* adjust to match text height */
+  filter: drop-shadow(0 0 0 black) drop-shadow(0 0 0 black) drop-shadow(0 0 0 black);
+}
+
+
 
 section h2 {
   font-size: 32px;
