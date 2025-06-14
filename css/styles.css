@@ -46,7 +46,7 @@ nav {
 
 .logo-img {
   height: auto;
-  max-height: 90px; /* was ~60px */
+  max-height: 110px; /* was ~60px */
   width: auto;
   object-fit: contain;
 }
