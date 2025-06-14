@@ -459,8 +459,14 @@ section h2 {
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   }
 
-  .hero{
-      flex: 5 5 5px;
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full screen height */
+    padding: 0 20px;
+    text-align: center;
   }
 
   .nav-links.show {
