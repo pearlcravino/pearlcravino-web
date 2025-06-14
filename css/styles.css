@@ -186,12 +186,13 @@ section {
 }
 
 .makhanoo-img-wrap {
-  display:inline;
+  display: inline-block;
   vertical-align: middle;
 }
 
 .makhanoo-img {
   height: 1700px; /* adjust to match text height */
+  max-height:max-content;
   filter: drop-shadow(0 0 0 black) drop-shadow(0 0 0 black) drop-shadow(0 0 0 black);
 }
 
