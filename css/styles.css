@@ -482,23 +482,25 @@ section h2 {
   .footer-content {
     flex-direction: column;
     align-items: center;
-    gap: 5px; /* reduce spacing between sections */
-    padding: 10px 5px;
+    text-align: center;
+    gap: 20px;
+    padding: 30px 15px;
   }
 
   .footer-logo-circle {
-    max-width: 160px; /* still large but less overwhelming */
-    margin-bottom: 5px;
+    max-width: 120px;
+    margin: 0 auto 10px;
   }
 
   .footer-socials {
-    margin: 5px 0;
-    gap: 2px;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 15px;
   }
 
-  .footer-right p {
-    margin: 4px 0;
+  .footer-right {
     font-size: 14px;
+    line-height: 1.5;
   }
 
   .footer-bottom {
