@@ -526,17 +526,17 @@ section h2 {
 
   .makhanoo-heading {
     display: flex;
-    align-items: center;
     justify-content: center;
-    flex-wrap: nowrap;
+    align-items: center;
+   flex-wrap: nowrap;
     gap: 10px;
-    text-align: center;
     white-space: nowrap;
+    overflow: hidden;
   }
 
   .makhanoo-img {
     height: 40px;
-    max-width: 100%;
+    max-height: 10vh;
   }
 
 
@@ -610,5 +610,14 @@ section h2 {
     height: 38px;
     font-size: 16px;
   }
+
+  .makhanoo-img {
+    height: 32px;
+  }
+
+  .makhanoo-heading {
+    font-size: 1.1rem;
+  }
+
 }
 
