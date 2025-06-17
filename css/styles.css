@@ -528,7 +528,7 @@ section h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-   flex-wrap: nowrap;
+    flex-wrap: nowrap;
     gap: 10px;
     white-space: nowrap;
     overflow: hidden;
