@@ -529,14 +529,14 @@ section h2 {
     justify-content: center;
     align-items: center;
     flex-wrap: nowrap;
-    gap: 10px;
+    gap: 1px;
     white-space: nowrap;
     overflow: hidden;
   }
 
   .makhanoo-img {
-    height: 40px;
-    max-height: 10vh;
+    height: 80px;
+    max-height: 20vh;
   }
 
 
