@@ -528,15 +528,16 @@ section h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: nowrap;
+    flex-wrap: wrap; /* wrap if too tight */
     gap: 1px;
     white-space: nowrap;
     overflow: hidden;
   }
 
   .makhanoo-img {
-    height: 80px;
-    max-height: 20vh;
+    height: 60px; /* boost size for visibility */
+    max-height: 10vh;
+    object-fit: contain;
   }
 
 
