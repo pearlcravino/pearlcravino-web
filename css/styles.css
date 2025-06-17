@@ -185,17 +185,22 @@ section {
   letter-spacing: 1px;
 }
 
-.makhanoo-img-wrap {
-  display: inline-block;
-  vertical-align: middle;
+.makhanoo-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  gap: 16px;
+  font-size: 2.2rem;  /* boost heading size */
+  margin-top: 1rem;
+  white-space: nowrap;
 }
 
 .makhanoo-img {
-  height: 1700px; /* adjust to match text height */
-  max-height:max-content;
-  filter: drop-shadow(0 0 0 black) drop-shadow(0, 0, 0, black) drop-shadow(0 0 0 black);
+  height: 70px;       /* increased from 40–60 to 70px */
+  max-width: none;
+  object-fit: contain;
 }
-
 
 
 section h2 {
@@ -525,23 +530,13 @@ section h2 {
   }
 
   .makhanoo-heading {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap; /* wrap if too tight */
-    gap: 1px;
-    white-space: nowrap;
-    overflow: hidden;
+    font-size: 1.6rem;
+    gap: 12px;
   }
 
   .makhanoo-img {
-    height: 60px; /* boost size for visibility */
-    max-height: 10vh;
-    object-fit: contain;
+    height: 56px;
   }
-
-
-
 
   .footer-content {
     flex-direction: column;
