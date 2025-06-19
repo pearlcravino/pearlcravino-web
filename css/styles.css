@@ -177,7 +177,21 @@ nav a:hover {
 section {
   padding: 60px 20px;
   text-align: center;
+  font-size: large;
+  }
+
+.story-text {
+  max-width: 90%;
+  margin: 0 auto;
+  text-align: center;
 }
+
+.story-lead {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
 
 .bolder {
   font-family: 'Anton', sans-serif; /* or Heading Now ExtraBold if loaded */
